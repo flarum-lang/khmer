@@ -1,27 +1,24 @@
 {
 	"name": "flarum-lang/khmer",
+	"description": "Khmer Language Pack for Flarum",
 	"type": "flarum-extension",
-	"description": "Khmer language pack for Flarum.",
-	"homepage": "https://github.com/flarum-lang/khmer",
 	"keywords": [
-		"locale",
-		"flarum",
-		"flarum-locale",
-		"km-locale",
-		"khmer-locale",
-		"khmer"
+		"flarum-locale"
 	],
+	"homepage": "https://github.com/flarum-lang/khmer",
 	"license": "MIT",
 	"support": {
 		"issues": "https://github.com/flarum-lang/khmer/issues",
+		"forum": "https://discuss.flarum.org/d/40196",
 		"source": "https://github.com/flarum-lang/khmer"
 	},
 	"require": {
 		"flarum/core": "^1.6"
 	},
-	"minimum-stability": "dev",
-	"prefer-stable": true,
 	"extra": {
+		"branch-alias": {
+			"dev-master": "1.x-dev"
+		},
 		"flarum-extension": {
 			"title": "Khmer",
 			"category": "language",
@@ -33,13 +30,7 @@
 		},
 		"flarum-locale": {
 			"code": "km",
-			"title": "Khmer"
-		},
-		"extiverse": {
-			"discuss": ""
-		},
-		"branch-alias": {
-			"dev-master": "1.x-dev"
+			"title": "ខ្មែរ"
 		}
 	}
 }
